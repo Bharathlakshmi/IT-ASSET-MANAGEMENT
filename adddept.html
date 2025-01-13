@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ADD DEPARTMENT</title>
+<link rel="stylesheet" href="formstyle.css" >
+
+</head>
+<body background="dept.jpg">
+<br><br><br><br>
+<div class="box">
+<center>
+<h1>ADD DEPARTMENT</h1>
+<br><br>
+<h3>
+<form method="post" action="adddept.html" onsubmit="myFunction()">
+<div class="input">
+<input type="text" name="block" required autocomplete="off">
+<label>BLOCK</label>
+</div>
+<div class="input">
+<input type="text" name="dept_name" required autocomplete="off">
+<label>NAME</label>
+</div>
+<div class="input">
+<input type="text" name="from_dept" required autocomplete="off">
+<label>FROM</label>
+</div>
+<div class="input">
+<input type="text" name="to_dept" required autocomplete="off">
+<label>TO</label>
+</div>
+<div class="input">
+<input type="tel" name="cab_no" required autocomplete="off">
+<label>CABLE NUMBER</label>
+</div>
+<div class="input">
+<input type="text" name="mem" required autocomplete="off">
+<label>MEMBERS</label>
+</div>
+<div class="input">
+<input type="text" name="rem" required autocomplete="off">
+<label>REMARKS</label>
+</div>
+<br>
+<button type='submit'>SUBMIT</button>
+
+<br><br><br>
+
+<!--<button onclick="history.back()">BACK</button>-->
+</form>
+</h3>
+</div>
+<script>
+function myFunction(){
+  alert("Form submitted successfully");
+}
+</script>
+</center>
+</body>
+</html>
